@@ -4,7 +4,9 @@
     margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+html {
+    scroll-behavior: smooth;
+  }
 
 .header{
     position: sticky;
@@ -77,7 +79,7 @@
 
 
 #mainimg{
-    width: 700px;
+    width: 805px;
     height: 400px;
     border-radius: 10px;
     border: #ffa135 5px solid;
@@ -147,7 +149,7 @@ main ul{
 
 img{
     object-fit: cover;
-    width: 350px;
+    width: 395px;
     height: 250px;
     vertical-align: middle;
     border-radius: 5px;
