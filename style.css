@@ -59,12 +59,17 @@ html {
     background-size: cover;
 }
 
+
+
 .main{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     padding: 50px;
     background-color: lightgray;
+    display:flex;
+    flex-direction: column;
+    
 }
 
 .main h3{
@@ -83,6 +88,8 @@ html {
     height: 400px;
     border-radius: 10px;
     border: #ffa135 5px solid;
+    display: flex;
+    flex-wrap: wrap;
     
 }
 
@@ -109,7 +116,7 @@ html {
     flex-direction: row;
     position: relative;
     width: 49%;
-    background-color: lightgrey;
+    
     padding: 20px;
     bottom: 110px;
     font-size: 20px;
@@ -127,10 +134,11 @@ html {
     position: relative;
     float: right;
     bottom: 100px;
-    right: 80px;
     padding: 20px;
     font-size: 28px;
     font-family: fantasy;
+    text-align: center;
+    
 }
 
 main ul{
@@ -205,10 +213,12 @@ footer ul li{
     
 }
 @media screen and (max-width: 768px) {
-    main{
+    *{
         flex-direction: column;
     }
-    
+    #mainimg{
+        max-width: 50%;
+    }
     
     
 }
