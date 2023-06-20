@@ -116,7 +116,6 @@ html {
     flex-direction: row;
     position: relative;
     width: 49%;
-    
     padding: 20px;
     bottom: 110px;
     font-size: 20px;
@@ -140,6 +139,7 @@ html {
     text-align: center;
     
 }
+
 
 main ul{
     list-style: none;
